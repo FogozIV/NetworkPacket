@@ -1,6 +1,0 @@
-#ifndef NETWORKPACKET_LIBRARY_H
-#define NETWORKPACKET_LIBRARY_H
-
-void hello();
-
-#endif //NETWORKPACKET_LIBRARY_H

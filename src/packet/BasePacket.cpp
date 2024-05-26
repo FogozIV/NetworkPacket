@@ -25,5 +25,5 @@ packet_size_type BasePacket::getPacket(packet_raw_type packet) const {
 }
 
 packet_size_type BasePacket::getFullPacket(char *packet) const {
-    return getFullPacket(reinterpret_cast<packet_raw_type>(packet));
+    return this->getFullPacket(reinterpret_cast<packet_raw_type>(packet));
 }

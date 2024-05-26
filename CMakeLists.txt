@@ -7,4 +7,6 @@ file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 file(GLOB_RECURSE HEADERS "include/*.h")
 
+message(${SOURCES})
+
 add_library(${PROJECT_NAME} STATIC ${SOURCES} ${HEADERS})

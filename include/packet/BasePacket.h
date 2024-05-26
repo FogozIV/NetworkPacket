@@ -22,11 +22,10 @@ public:
 
     virtual packet_size_type getPacket(packet_raw_type packet) const;
 
-    virtual packet_size_type getFullPacket(packet_raw_type packet) const;
+    packet_size_type getFullPacket(packet_raw_type packet) const;
 
-    virtual packet_size_type getFullPacket(char *packet) const;
+    packet_size_type getFullPacket(char *packet) const;
 
-    virtual std::shared_ptr<BasePacket> parsePacket(packet_raw_type data, packet_size_type size) = 0;
 };
 
 #endif //NETWORKPACKET_BASEPACKET_H

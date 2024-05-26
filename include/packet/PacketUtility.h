@@ -19,16 +19,16 @@ namespace packet_utility{
 
     static packet_size_type getArrayOfType(std::vector<std::string>&, packet_raw_type);
 
-    template<typename T, typename G=uint8_t>
+    template<typename T>
     static packet_size_type copyArrayOfType(const std::vector<T>&, packet_raw_type);
 
-    template<typename T, typename G=uint8_t>
+    template<typename T>
     static packet_size_type getArrayOfType(std::vector<T>&, packet_raw_type);
 
-    template<typename T, typename G=uint8_t>
+    template<typename T>
     static packet_size_type copySetOfType(const std::set<T>&, packet_raw_type);
 
-    template<typename T, typename G=uint8_t>
+    template<typename T>
     static packet_size_type getSetOfType(std::set<T>&, packet_raw_type);
 
     template<typename T>
@@ -40,6 +40,26 @@ namespace packet_utility{
     static packet_size_type copyType(const std::string&, packet_raw_type);
 
     static packet_size_type getType(std::string&, packet_raw_type);
+
+
+
+    static packet_size_type copyType(const std::vector<std::string>&, packet_raw_type);
+
+    static packet_size_type getType(std::vector<std::string>&, packet_raw_type);
+
+    template<typename T>
+    static packet_size_type copyType(const std::vector<T>&, packet_raw_type);
+
+    template<typename T>
+    static packet_size_type getType(std::vector<T>&, packet_raw_type);
+
+    template<typename T>
+    static packet_size_type copyType(const std::set<T>&, packet_raw_type);
+
+    template<typename T>
+    static packet_size_type getType(std::set<T>&, packet_raw_type);
+
+
 }
 
 
