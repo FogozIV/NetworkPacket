@@ -1,0 +1,14 @@
+{
+  "name": "NetworkPacket",
+  "version": "1.0.0",
+  "description": "Network Packets for Eurobot Competition",
+  "authors":[
+    {
+      "name": "fogoziv",
+      "email": "fogoziv@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
