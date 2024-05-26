@@ -13,4 +13,6 @@
 //We generate the packets
 #include "GeneratedPacketClass.h"
 
+#undef PACKET
+
 #endif //NETWORKPACKET_PACKETGENERATOR_H

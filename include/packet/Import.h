@@ -10,8 +10,9 @@
     PACKET(Ping, false, PARAMETERS(0))                       \
     PACKET(Pong, false, PARAMETERS(0))
 
-
 #include "generation/PacketGenerator.h"
+
+#include "PacketParser.h"
 
 
 #endif //NETWORKPACKET_IMPORT_H

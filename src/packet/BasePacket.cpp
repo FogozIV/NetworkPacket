@@ -5,7 +5,7 @@
 #include "../../include/packet/BasePacket.h"
 
 bool BasePacket::isClientBound() const {
-    return (getPacketID() & 0x8000) == 0;
+    return (getPacketID() & 0x8000) != 0;
 }
 
 bool BasePacket::isServerBound() const {
