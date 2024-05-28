@@ -9,6 +9,7 @@
 #include <string>
 #include <set>
 #include "BasePacket.h"
+#include <cstring>
 
 namespace packet_utility{
 
